@@ -1,0 +1,80 @@
+.btn-blue {
+    background-color: #41D1CC;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: #FFFFF0;
+    font-weight: normal;
+    font-family: 'Rubik', sans-serif;
+}
+.btn-login {
+    background-color: #41D1CC;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #FFFFF0;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.btn-banner1 {
+    background-color: #FFFFF0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #41D1CC;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    left: 58%;
+    top: 18%;}
+
+.btn-banner2{   background-color: #FFFFF0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #41D1CC;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    left: 25%;
+    top: 18%;}
+
+.btn-banner3{   
+    background-color: #FFFFF0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #41D1CC;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    left: 68%;
+    top: 18%;}
+.btn-banner4{
+       background-color: #FFFFF0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #41D1CC;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    left: 78%;
+    top: 18%;
+}
+.btn-search{
+    background-color: #F8F8F8;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 18%;
+}
+.btn-pay{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background: #41D1CC;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    padding: 3px;
+    margin-left: 35px;}

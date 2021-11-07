@@ -1,0 +1,16 @@
+.btn-blue {
+    background-color: #41D1CC;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: #FFFFF0;
+    font-weight: normal;
+    font-family: 'Rubik', sans-serif;
+}
+.btn-login {
+    background-color: #41D1CC;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: #FFFFF0;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
+}

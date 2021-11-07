@@ -1,0 +1,21 @@
+.contact {
+	background-image: linear-gradient(-220deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/contact.jpg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;	
+}
+.contact h1 {
+	color:  #FFFFF0;
+	font-size: 70px;
+	line-height: 79px;
+}
+
+.contact h2 {
+	color:  #FFFFF0;
+	font-size: 36px;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	line-height: 43px;
+}
+	

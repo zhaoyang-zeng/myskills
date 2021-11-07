@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style>
+			.content{
+				position: absolute;
+				width: 100%;
+				height: 930px;
+				left: 0px;
+				top: 97px;
+				
+				background: rgba(255, 255, 255, 255);
+			}
+			.bg{
+				background-image: url(img/123.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				width: 100%;
+				height: 100%;
+			}
+			.btn{
+				
+				position: absolute;
+				left:40%;
+				top: 83px;
+				width: 300px;
+				font-size: 20px;
+				line-height: 50px;
+				font-weight: 500;
+				text-align: center;
+				background: #41D1CC;
+				border-radius: 10px;
+				color: white;
+			}
+			.pay{
+				position: absolute;
+				left:15%;
+				top: 163px;
+				width: 500px;
+				height: 300px;
+				
+				background: #feffeb;
+			}
+			
+			.mou1{
+				margin-top: 20px;
+				font-family: Rubik;
+				width: 90%;
+				margin-left: 2%;
+				font-size: 25px;
+				line-height: 48px;
+				padding-left: 30px;
+				color: white;
+				background: #C0BFB5;
+				border-radius: 15px;
+			}
+			.order{
+				position: absolute;
+				right:15%;
+				top: 163px;
+				width: 500px;
+				height: 400px;
+				
+				background: #feffeb;
+			}
+			.order .ur{
+				margin-left: 40px;
+				margin-right: 40px;
+				line-height: 50px;
+				font-size: 23px;
+				font-weight: 500;
+			}
+			.order .total{
+				margin-left: 40px;
+				margin-right: 40px;
+				font-size: 23px;
+				font-weight: 500;
+			}
+			input[type=radio]{
+				position: relative;
+				top: -50px;
+				margin-bottom: 20px;
+				width: 50px;
+			}
+			.btn_2{
+				text-align: center;
+				background: #41D1CC;
+				border-radius: 10px;
+				font-weight: 300;
+				
+				color: white;
+				font-size: 30px;
+				padding: 10px;
+				margin-left: 35px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			 
+				<a href="cooking.html" class="btn-search"> Search</a>
+
+				<a href="courses.hmtl" class="btn-banner2"> Our Courses</a>
+
+				<img class="f" src="images/46D063B16CF269EF514ADC07B14FA2F0.png">
+				<a href="cooking.hmtl" class="btn-banner1">My Courses</a>
+
+				<a href="index.html" class="btn-banner3">About us</a>
+
+				<a href="" class="btn-banner4">Login</a>
+		</div>
+		<div class="content">
+			<div class="bg">
+				
+				<a class="btn">Book This Course</a>
+				<div class="pay">
+					<div class="mou1">
+						How would you like to pay?
+					</div>
+					<input type="radio" name="pay" /><img src="images/paypal.png" /><br />
+					<input type="radio" name="pay" /><img src="images/visa.png" />
+				</div>
+				<div class="order">
+					<div class="mou1">
+						Order Summary
+					</div>
+					<p class="ur">
+						Order Reference:123456<br />
+						Basic Cooking*1 <span style="float: right;">$20.00</span>
+					</p>
+					<p class="total">
+						Taxes <span style="float: right;">$0.80</span><br />
+						Total <span style="float: right;">$20.80</span>
+					</p>
+					<a class="btn-pay">Continue to secure payement</a>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
